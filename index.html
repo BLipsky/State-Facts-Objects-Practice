@@ -87,7 +87,16 @@
 				<p><strong>Flower: </strong><span id="info-flower">Rose</span></p>
 				<p><strong>Nickname: </strong><span id="info-nickname">N/A</span></p>
 			</div>
-		</div>
+		</div> 
 	</div>
+	<script>
+		let statelist = document.getElementById('state-list');
+
+		statelist.onchange = function () {
+			console.log(this.value)
+		}
+	</script>
+
 </body>
+
 </html>
